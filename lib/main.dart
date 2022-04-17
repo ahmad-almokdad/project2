@@ -10,6 +10,8 @@ import 'package:flutter_auth/constants.dart';
 import 'package:get/get.dart';
 import 'Screens/Welcome/welcome_screen.dart';
 
+//Hello from the other side :)
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
