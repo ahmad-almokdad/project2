@@ -3,6 +3,7 @@ import 'package:flutter_auth/Screens/Cart/cart_screen.dart';
 import 'package:flutter_auth/Screens/HomePage/home_page_screen.dart';
 import 'package:flutter_auth/Screens/Location/location_screen.dart';
 import 'package:flutter_auth/Screens/LogIn/login_screen.dart';
+import 'package:flutter_auth/Screens/Products/products_screen.dart';
 import 'package:flutter_auth/Screens/Profile/profile_screen.dart';
 import 'package:flutter_auth/Screens/Search/Search_screen.dart';
 import 'package:flutter_auth/Screens/SignUp/signup_screen.dart';
@@ -26,8 +27,8 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-
-      home: HomePage(), // WelcomeScreen(),
+      home: HomePage(),
+      //  WelcomeScreen(),
       getPages: [
         GetPage(name: "/", page: () => WelcomeScreen()),
         GetPage(name: "/login", page: () => LoginScreen()),
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: "/profile", page: () => ProfileScreen()),
         GetPage(name: "/cart", page: () => CartScreen()),
         GetPage(name: "/search", page: () => SearchScreen()),
+        GetPage(name: "/products", page: () => ProductsScreen()),
       ],
     );
   }
