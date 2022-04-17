@@ -27,12 +27,12 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
 
-      home: LoginScreen(), // WelcomeScreen(),
+      home: HomePage(), // WelcomeScreen(),
       getPages: [
         GetPage(name: "/", page: () => WelcomeScreen()),
         GetPage(name: "/login", page: () => LoginScreen()),
         GetPage(name: "/signup", page: () => SignUpScreen()),
-        // GetPage(name: "/homepage", page: () => HomePage()),
+        GetPage(name: "/homepage", page: () => HomePage()),
         GetPage(name: "/location", page: () => LocationScreen()),
         GetPage(name: "/profile", page: () => ProfileScreen()),
         GetPage(name: "/cart", page: () => CartScreen()),
