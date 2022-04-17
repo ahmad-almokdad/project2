@@ -12,6 +12,8 @@ import 'Screens/Welcome/welcome_screen.dart';
 
 //Hello from the other side :)
 
+//there is such a diffrent between us
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
