@@ -16,11 +16,12 @@ class ProductsScreen extends StatelessWidget {
         foregroundColor: kPrimaryColor,
         actions: [
           FlatButton(
-              onPressed: () {},
-              child: const Text(
-                '+FILTERS',
-                style: TextStyle(color: kPrimaryColor),
-              ))
+            onPressed: () {},
+            child: const Text(
+              '+FILTERS',
+              style: TextStyle(color: kPrimaryColor),
+            ),
+          ),
         ],
       ),
       body: Body(),
